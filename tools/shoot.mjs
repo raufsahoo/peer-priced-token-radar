@@ -17,6 +17,8 @@ const shots = [
   ['1-board.png', ''],
   ['2-detail.png', '#p=steakhouse-financial'],
   ['3-filtered.png', '#cat=Risk+Curators&up=1&sort=change_7d&dir=desc'],
+  // The traded peers behind every multiple, kept apart from the pre-token board (the gate allows up to 4).
+  ['4-traded.png', '#tab=traded'],
 ];
 mkdirSync(join(root, 'screenshots'), { recursive: true });
 for (const [name, hash] of shots) {
